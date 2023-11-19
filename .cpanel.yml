@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/lendah/public_html/web1/
     - /usr/bin/cp index.html $DEPLOYPATH
+    - /usr/bin/cp test.txt $DEPLOYPATH
